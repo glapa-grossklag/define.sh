@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # Define words without leaving your terminal.
-set -euo pipefail
+set -eu
 
 # Find an API key here:
 #     https://dictionaryapi.com
@@ -8,12 +8,12 @@ API_KEY='Put your API key here!'
 
 define() {
 	word="$1"
-	curl \
-		--silent \
-		--show-error \
+	curl                                                                                  \
+		--silent                                                                          \
+		--show-error                                                                      \
 		"https://dictionaryapi.com/api/v3/references/collegiate/json/${1}?key=${API_KEY}" \
-	| jq \
-		--raw-output \
+	| jq                                                                                  \
+		--raw-output                                                                      \
 		'.[0].shortdef | join("\n")'
 }
 
