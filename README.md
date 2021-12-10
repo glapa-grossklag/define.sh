@@ -3,7 +3,8 @@
 Define words without leaving your terminal.
 
 A command-line dictionary, making use of the [Merriam-Webster Dictionary
-API](https://dictionaryapi.com/) and [jq](https://stedolan.github.io/jq/).
+API](https://dictionaryapi.com/) and [jq](https://stedolan.github.io/jq/). Written in
+POSIX-compliant shell script.
 
 # Usage
 
