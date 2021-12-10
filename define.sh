@@ -1,8 +1,10 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 # Define words without leaving your terminal.
 set -euo pipefail
 
-source config.sh
+# Find an API key here:
+#     https://dictionaryapi.com
+API_KEY='Put your API key here!'
 
 define() {
 	word="$1"
