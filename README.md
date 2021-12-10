@@ -7,9 +7,11 @@ API](https://dictionaryapi.com/) and [jq](https://stedolan.github.io/jq/).
 
 # Usage
 
-```sh
-$ define.sh computer
-one that computes; specifically : a programmable usually electronic device that can store, retrieve, and process data
+```
+$ define.sh earth
+the fragmental material composing part of the surface of the globe; especially : cultivable soil
+the sphere of mortal life as distinguished from spheres of spirit life
+areas of land as distinguished from sea and air
 ```
 
 # Installation
